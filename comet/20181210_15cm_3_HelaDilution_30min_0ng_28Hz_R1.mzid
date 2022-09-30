@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MzIdentML id="Comet 2022.01 rev. 2 (f447eed)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://psidev.info/mzidentml#mzid12 https://github.com/HUPO-PSI/mzIdentML/blob/master/schema/mzIdentML1.2.0.xsd" xmlns="http://psidev.info/psi/pi/mzIdentML/1.2" version="1.2.0" creationDate="2022-09-30T03:47:42">
+ <cvList>
+  <cv id="PSI-MS" uri="https://raw.githubusercontent.com/HUPO-PSI/psi-ms-CV/master/psi-ms.obo" fullName="PSI-MS" />
+  <cv id="UNIMOD" uri="http://www.unimod.org/obo/unimod.obo" fullName="UNIMOD" />
+  <cv id="UO" uri="https://raw.githubusercontent.com/bio-ontology-research-group/unit-ontology/master/unit.obo" fullName="UNIT-ONTOLOGY" />
+  <cv id="PRIDE" uri="https://github.com/PRIDE-Utilities/pride-ontology/blob/master/pride_cv.obo" fullName="PRIDE" />
+ </cvList>
+ <AnalysisSoftwareList>
+  <AnalysisSoftware id="Comet" name="Comet" version="2022.01 rev. 2 (f447eed)">
+   <SoftwareName><cvParam cvRef="PSI-MS" accession="MS:1002251" name="Comet" value="" /></SoftwareName>
+  </AnalysisSoftware>
+ </AnalysisSoftwareList>
+ <SequenceCollection xmlns="http://psidev.info/psi/pi/mzIdentML/1.2">
+  <DBSequence id="sp|P35579|MYH9_HUMAN" accession="sp|P35579|MYH9_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|P60709|ACTB_HUMAN" accession="sp|P60709|ACTB_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|P63261|ACTG_HUMAN" accession="sp|P63261|ACTG_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|Q86WA9|S2611_HUMAN" accession="sp|Q86WA9|S2611_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|Q86WX3|AROS_HUMAN" accession="sp|Q86WX3|AROS_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|Q9C0F0|ASXL3_HUMAN" accession="sp|Q9C0F0|ASXL3_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|A5A3E0|POTEF_HUMAN" accession="sp|A5A3E0|POTEF_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|P68543|UBX2A_HUMAN" accession="sp|P68543|UBX2A_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|Q6S8J3|POTEE_HUMAN" accession="sp|Q6S8J3|POTEE_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|Q9BYX7|ACTBM_HUMAN" accession="sp|Q9BYX7|ACTBM_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|P0CG38|POTEI_HUMAN" accession="sp|P0CG38|POTEI_HUMAN" searchDatabase_ref="DB" />
+  <DBSequence id="sp|P0CG39|POTEJ_HUMAN" accession="sp|P0CG39|POTEJ_HUMAN" searchDatabase_ref="DB" />
+  <Peptide id="AKNIEVENK;">
+   <PeptideSequence>AKNIEVENK</PeptideSequence>
+  </Peptide>
+  <Peptide id="GLVWAATTAR;">
+   <PeptideSequence>GLVWAATTAR</PeptideSequence>
+  </Peptide>
+  <Peptide id="KACDRPVAK;">
+   <PeptideSequence>KACDRPVAK</PeptideSequence>
+  </Peptide>
+  <Peptide id="KTEPWKEK;">
+   <PeptideSequence>KTEPWKEK</PeptideSequence>
+  </Peptide>
+  <Peptide id="LEVNLQAMK;">
+   <PeptideSequence>LEVNLQAMK</PeptideSequence>
+  </Peptide>
+  <Peptide id="QEYDESGPSIVHR;">
+   <PeptideSequence>QEYDESGPSIVHR</PeptideSequence>
+  </Peptide>
+  <PeptideEvidence start="151" end="159" id="AKNIEVENK;;sp|P68543|UBX2A_HUMAN" isDecoy="false" peptide_ref="AKNIEVENK;" dBSequence_ref="sp|P68543|UBX2A_HUMAN" />
+  <PeptideEvidence start="238" end="247" id="GLVWAATTAR;;sp|Q86WA9|S2611_HUMAN" isDecoy="false" peptide_ref="GLVWAATTAR;" dBSequence_ref="sp|Q86WA9|S2611_HUMAN" />
+  <PeptideEvidence start="102" end="110" id="KACDRPVAK;;sp|Q86WX3|AROS_HUMAN" isDecoy="false" peptide_ref="KACDRPVAK;" dBSequence_ref="sp|Q86WX3|AROS_HUMAN" />
+  <PeptideEvidence start="345" end="352" id="KTEPWKEK;;sp|Q9C0F0|ASXL3_HUMAN" isDecoy="false" peptide_ref="KTEPWKEK;" dBSequence_ref="sp|Q9C0F0|ASXL3_HUMAN" />
+  <PeptideEvidence start="1558" end="1566" id="LEVNLQAMK;;sp|P35579|MYH9_HUMAN" isDecoy="false" peptide_ref="LEVNLQAMK;" dBSequence_ref="sp|P35579|MYH9_HUMAN" />
+  <PeptideEvidence start="360" end="372" id="QEYDESGPSIVHR;;sp|P60709|ACTB_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|P60709|ACTB_HUMAN" />
+  <PeptideEvidence start="360" end="372" id="QEYDESGPSIVHR;;sp|P63261|ACTG_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|P63261|ACTG_HUMAN" />
+  <PeptideEvidence start="1060" end="1072" id="QEYDESGPSIVHR;;sp|A5A3E0|POTEF_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|A5A3E0|POTEF_HUMAN" />
+  <PeptideEvidence start="1060" end="1072" id="QEYDESGPSIVHR;;sp|Q6S8J3|POTEE_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|Q6S8J3|POTEE_HUMAN" />
+  <PeptideEvidence start="360" end="372" id="QEYDESGPSIVHR;;sp|Q9BYX7|ACTBM_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|Q9BYX7|ACTBM_HUMAN" />
+  <PeptideEvidence start="1060" end="1072" id="QEYDESGPSIVHR;;sp|P0CG38|POTEI_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|P0CG38|POTEI_HUMAN" />
+  <PeptideEvidence start="1023" end="1035" id="QEYDESGPSIVHR;;sp|P0CG39|POTEJ_HUMAN" isDecoy="false" peptide_ref="QEYDESGPSIVHR;" dBSequence_ref="sp|P0CG39|POTEJ_HUMAN" />
+ </SequenceCollection>
+ <AnalysisCollection>
+  <SpectrumIdentification spectrumIdentificationList_ref="SIL" spectrumIdentificationProtocol_ref="SIP" id="SI">
+   <InputSpectra spectraData_ref="SD" />
+   <SearchDatabaseRef searchDatabase_ref="DB" />
+  </SpectrumIdentification>
+ </AnalysisCollection>
+ <AnalysisProtocolCollection>
+  <SpectrumIdentificationProtocol analysisSoftware_ref="Comet" id="SIP">
+   <SearchType>
+    <cvParam cvRef="PSI-MS" accession="MS:1001083" name="ms-ms search" />
+   </SearchType>
+   <AdditionalSearchParams>
+    <cvParam cvRef="PSI-MS" accession="MS:1001211" name="parent mass type mono" />
+    <cvParam cvRef="PSI-MS" accession="MS:1001256" name="fragment mass type mono" />
+    <cvParam cvRef="PSI-MS" accession="MS:1002495" name="no special processing" />
+    <userParam name="# comet_version" value="2022.01 rev. 2" />
+    <userParam name="activation_method" value="ALL" />
+    <userParam name="add_A_alanine" value="0.000000" />
+    <userParam name="add_B_user_amino_acid" value="0.000000" />
+    <userParam name="add_C_cysteine" value="57.021464" />
+    <userParam name="add_Cterm_peptide" value="0.000000" />
+    <userParam name="add_Cterm_protein" value="0.000000" />
+    <userParam name="add_D_aspartic_acid" value="0.000000" />
+    <userParam name="add_E_glutamic_acid" value="0.000000" />
+    <userParam name="add_F_phenylalanine" value="0.000000" />
+    <userParam name="add_G_glycine" value="0.000000" />
+    <userParam name="add_H_histidine" value="0.000000" />
+    <userParam name="add_I_isoleucine" value="0.000000" />
+    <userParam name="add_J_user_amino_acid" value="0.000000" />
+    <userParam name="add_K_lysine" value="0.000000" />
+    <userParam name="add_L_leucine" value="0.000000" />
+    <userParam name="add_M_methionine" value="0.000000" />
+    <userParam name="add_N_asparagine" value="0.000000" />
+    <userParam name="add_Nterm_peptide" value="0.000000" />
+    <userParam name="add_Nterm_protein" value="0.000000" />
+    <userParam name="add_O_pyrrolysine" value="0.000000" />
+    <userParam name="add_P_proline" value="0.000000" />
+    <userParam name="add_Q_glutamine" value="0.000000" />
+    <userParam name="add_R_arginine" value="0.000000" />
+    <userParam name="add_S_serine" value="0.000000" />
+    <userParam name="add_T_threonine" value="0.000000" />
+    <userParam name="add_U_selenocysteine" value="0.000000" />
+    <userParam name="add_V_valine" value="0.000000" />
+    <userParam name="add_W_tryptophan" value="0.000000" />
+    <userParam name="add_X_user_amino_acid" value="0.000000" />
+    <userParam name="add_Y_tyrosine" value="0.000000" />
+    <userParam name="add_Z_user_amino_acid" value="0.000000" />
+    <userParam name="allowed_missed_cleavage" value="2" />
+    <userParam name="clear_mz_range" value="0.000000 0.000000" />
+    <userParam name="clip_nterm_methionine" value="0" />
+    <userParam name="database_name" value="results/Firstexp/fasta/UP000005640.fasta" />
+    <userParam name="decoy_prefix" value="DECOY_" />
+    <userParam name="decoy_search" value="2" />
+    <userParam name="digest_mass_range" value="600.000000 5000.000000" />
+    <userParam name="equal_I_and_L" value="1" />
+    <userParam name="fragment_bin_offset" value="0.000000" />
+    <userParam name="fragment_bin_tol" value="0.020000" />
+    <userParam name="isotope_error" value="1" />
+    <userParam name="mass_offsets" value="" />
+    <userParam name="mass_type_fragment" value="1" />
+    <userParam name="mass_type_parent" value="1" />
+    <userParam name="max_duplicate_proteins" value="20" />
+    <userParam name="max_fragment_charge" value="3" />
+    <userParam name="max_precursor_charge" value="6" />
+    <userParam name="max_variable_mods_in_peptide" value="5" />
+    <userParam name="minimum_intensity" value="0.000000" />
+    <userParam name="minimum_peaks" value="10" />
+    <userParam name="ms_level" value="2" />
+    <userParam name="nucleotide_reading_frame" value="0" />
+    <userParam name="num_enzyme_termini" value="2" />
+    <userParam name="num_output_lines" value="5" />
+    <userParam name="num_results" value="100" />
+    <userParam name="num_threads" value="5" />
+    <userParam name="output_mzidentmlfile" value="1" />
+    <userParam name="output_pepxmlfile" value="1" />
+    <userParam name="output_percolatorfile" value="1" />
+    <userParam name="output_sqtfile" value="1" />
+    <userParam name="output_suffix" value="" />
+    <userParam name="output_txtfile" value="1" />
+    <userParam name="override_charge" value="0" />
+    <userParam name="peff_format" value="0" />
+    <userParam name="peff_obo" value="" />
+    <userParam name="peptide_length_range" value="6 35" />
+    <userParam name="peptide_mass_tolerance" value="20.000000" />
+    <userParam name="peptide_mass_units" value="2" />
+    <userParam name="precursor_NL_ions" value="" />
+    <userParam name="precursor_charge" value="0 0" />
+    <userParam name="precursor_tolerance_type" value="1" />
+    <userParam name="print_expect_score" value="1" />
+    <userParam name="remove_precursor_peak" value="0" />
+    <userParam name="remove_precursor_tolerance" value="1.500000" />
+    <userParam name="require_variable_mod" value="0" />
+    <userParam name="sample_enzyme_number" value="1" />
+    <userParam name="scan_range" value="0 0" />
+    <userParam name="search_enzyme2_number" value="0" />
+    <userParam name="search_enzyme_number" value="1" />
+    <userParam name="spectrum_batch_size" value="15000" />
+    <userParam name="theoretical_fragment_ions" value="1" />
+    <userParam name="use_A_ions" value="0" />
+    <userParam name="use_B_ions" value="1" />
+    <userParam name="use_C_ions" value="0" />
+    <userParam name="use_NL_ions" value="0" />
+    <userParam name="use_X_ions" value="0" />
+    <userParam name="use_Y_ions" value="1" />
+    <userParam name="use_Z1_ions" value="0" />
+    <userParam name="use_Z_ions" value="0" />
+    <userParam name="variable_mod01" value=" 15.9949 M 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod02" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod03" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod04" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod05" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod06" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod07" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod08" value=" 0.0 X 0 3 -1 0 0 0.0" />
+    <userParam name="variable_mod09" value=" 0.0 X 0 3 -1 0 0 0.0" />
+   </AdditionalSearchParams>
+   <ModificationParams>
+    <SearchModification residues="C" massDelta="57.021464" fixedMod= "true" >
+     <cvParam cvRef="UNIMOD" accession="UNIMOD:4" name="Carbamidomethyl" />
+    </SearchModification>
+    <SearchModification residues="M" massDelta="15.994900" fixedMod= "false" >
+     <cvParam cvRef="UNIMOD" accession="UNIMOD:35" name="Oxidation" />
+    </SearchModification>
+   </ModificationParams>
+   <Enzymes>
+     <Enzyme id="ENZ"  missedCleavages="2" semiSpecific="false">
+      <SiteRegexp>((?&lt;=[KR]) (?!P))</SiteRegexp>
+     </Enzyme>
+   </Enzymes>
+   <MassTable id="MT" msLevel="1 2">
+    <Residue code="A" mass="71.037114" />
+    <Residue code="C" mass="103.009185" />
+    <Residue code="D" mass="115.026943" />
+    <Residue code="E" mass="129.042593" />
+    <Residue code="F" mass="147.068414" />
+    <Residue code="G" mass="57.021464" />
+    <Residue code="H" mass="137.058912" />
+    <Residue code="I" mass="113.084064" />
+    <Residue code="K" mass="128.094963" />
+    <Residue code="L" mass="113.084064" />
+    <Residue code="M" mass="131.040485" />
+    <Residue code="N" mass="114.042927" />
+    <Residue code="O" mass="237.147727" />
+    <Residue code="P" mass="97.052764" />
+    <Residue code="Q" mass="128.058578" />
+    <Residue code="R" mass="156.101111" />
+    <Residue code="S" mass="87.032028" />
+    <Residue code="T" mass="101.047679" />
+    <Residue code="U" mass="150.953633" />
+    <Residue code="V" mass="99.068414" />
+    <Residue code="W" mass="186.079313" />
+    <Residue code="Y" mass="163.063329" />
+   </MassTable>
+   <FragmentTolerance>
+    <cvParam accession="MS:1001412" name="search tolerance plus value" value="0.010000" cvRef="PSI-MS" unitAccession="UO:0000221" unitName="dalton" unitCvRef="UO" />
+    <cvParam accession="MS:1001413" name="search tolerance minus value" value="0.010000" cvRef="PSI-MS" unitAccession="UO:0000221" unitName="dalton" unitCvRef="UO" />
+   </FragmentTolerance>
+   <ParentTolerance>
+   <cvParam cvRef="PSI-MS" accession="MS:1001412" name="search tolerance plus value" value="20.000000" unitAccession="UO:0000169" unitName="parts per million" unitCvRef="UO"></cvParam>
+   <cvParam cvRef="PSI-MS" accession="MS:1001413" name="search tolerance minus value" value="20.000000" unitAccession="UO:0000169" unitName="parts per million" unitCvRef="UO"></cvParam>
+   </ParentTolerance>
+   <Threshold>
+    <cvParam cvRef="PSI-MS" accession="MS:1001494" name="no threshold" />
+   </Threshold>
+  </SpectrumIdentificationProtocol>
+ </AnalysisProtocolCollection>
+ <DataCollection>
+  <Inputs>
+   <SearchDatabase id="DB" location="results/Firstexp/fasta/UP000005640.fasta">
+    <FileFormat>
+     <cvParam cvRef="PSI-MS" accession="MS:1001348" name="FASTA format" />
+    </FileFormat>
+    <DatabaseName>
+     <userParam type="string" name="/UP000005640.fasta" />
+    </DatabaseName>
+    <cvParam cvRef="PSI-MS" accession="MS:1001073" name="database type amino acid" />
+    <cvParam accession="MS:XXXXXXX" cvRef="PSI-MS" name="Comet internal separate target-decoy" />
+    <cvParam accession="MS:1001283" cvRef="PSI-MS" value="^DECOY_" name="decoy DB accession regexp" />
+    <cvParam accession="MS:XXXXXXX" cvRef="PSI-MS" name="Comet internal pseudo reverse decoy peptide" />
+   </SearchDatabase>
+   <SpectraData location="results/Firstexp/mzml/20181210_15cm_3_HelaDilution_30min_0ng_28Hz_R1.mzML" id="SD" >
+    <FileFormat>
+     <cvParam cvRef="PSI-MS" accession="MS:1000584" name="mzML file" />
+    </FileFormat>
+    <SpectrumIDFormat>
+     <cvParam cvRef="PSI-MS" accession="MS:1001530" name="mzML unique identifier" />
+    </SpectrumIDFormat>
+   </SpectraData>
+  </Inputs>
+  <AnalysisData>
+   <SpectrumIdentificationList id="SIL">
+    <SpectrumIdentificationResult id="SIR_0.1" spectrumID="2634" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_0.1" rank="1" chargeState="2" peptide_ref="AKNIEVENK;" experimentalMassToCharge="523.287826" calculatedMassToCharge="522.787838" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="AKNIEVENK;;sp|P68543|UBX2A_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="15" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="0.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="2.3000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="9" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="4.97E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="615.9417" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <SpectrumIdentificationResult id="SIR_0.2" spectrumID="2634" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_0.2" rank="2" chargeState="2" peptide_ref="GLVWAATTAR;" experimentalMassToCharge="523.287826" calculatedMassToCharge="523.293091" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="GLVWAATTAR;;sp|Q86WA9|S2611_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="17" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="0.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="2.5000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="6" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="4.97E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="615.9417" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <SpectrumIdentificationResult id="SIR_0.3" spectrumID="2634" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_0.3" rank="3" chargeState="2" peptide_ref="KACDRPVAK;" experimentalMassToCharge="523.287826" calculatedMassToCharge="522.784576" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="KACDRPVAK;;sp|Q86WX3|AROS_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="15" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="0.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="2.3000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="9" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="4.97E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="615.9417" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <SpectrumIdentificationResult id="SIR_0.4" spectrumID="2634" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_0.4" rank="4" chargeState="2" peptide_ref="KTEPWKEK;" experimentalMassToCharge="523.287826" calculatedMassToCharge="523.287474" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="KTEPWKEK;;sp|Q9C0F0|ASXL3_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="13" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="0.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="3.2000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="4.97E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="615.9417" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <SpectrumIdentificationResult id="SIR_0.5" spectrumID="2634" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_0.5" rank="5" chargeState="2" peptide_ref="LEVNLQAMK;" experimentalMassToCharge="523.287826" calculatedMassToCharge="523.289159" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="LEVNLQAMK;;sp|P35579|MYH9_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="15" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="1.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="2.8000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="4" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="4.97E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="615.9417" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <SpectrumIdentificationResult id="SIR_1.1" spectrumID="2686" spectraData_ref="SD">
+     <SpectrumIdentificationItem id="SII_1.1" rank="1" chargeState="3" peptide_ref="QEYDESGPSIVHR;" experimentalMassToCharge="506.241388" calculatedMassToCharge="506.239072" passThreshold="false">
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|P60709|ACTB_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|P63261|ACTG_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|A5A3E0|POTEF_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|Q6S8J3|POTEE_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|Q9BYX7|ACTBM_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|P0CG38|POTEI_HUMAN" />
+      <PeptideEvidenceRef peptideEvidence_ref="QEYDESGPSIVHR;;sp|P0CG39|POTEJ_HUMAN" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001121" name="number of matched peaks" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1001362" name="number of unmatched peaks" value="47" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002252" name="Comet:xcorr" value="0.2500" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002253" name="Comet:deltacn" value="1.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002255" name="Comet:spscore" value="1.0000" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002256" name="Comet:sprank" value="1" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002257" name="Comet:expectation value" value="2.55E+01" />
+      <cvParam cvRef="PSI-MS" accession="MS:1002500" name="peptide passes threshold" value="false" />
+     </SpectrumIdentificationItem>
+     <cvParam cvRef="PSI-MS" accession="MS:1000894" name="retention time" value="628.0282" unitCvRef="UO" unitAccession="UO:0000010" unitName="second"/>
+    </SpectrumIdentificationResult>
+    <cvParam cvRef="PSI-MS" accession="MS:1001035" name="date / time search performed" value="2022-09-30T03:47:42" />
+   </SpectrumIdentificationList>
+  </AnalysisData>
+ </DataCollection>
+</MzIdentML>

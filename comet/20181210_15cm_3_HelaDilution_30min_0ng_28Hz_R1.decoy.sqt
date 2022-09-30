@@ -1,0 +1,152 @@
+H	SQTGenerator	Comet
+H	Comment	CometVersion 2022.01 rev. 2 (f447eed)
+H
+H	StartTime	09/30/2022, 03:46:50 AM
+H	EndTime	09/30/2022, 03:46:50 AM
+H
+H	DBSeqLength	0
+H	DBLocusCount	0
+H	FragmentMassMode	AMU
+H	PrecursorMassMode	PPM
+H	SQTGeneratorVersion	N/A
+H	Database	results/Firstexp/fasta/UP000005640.fasta
+H	FragmentMasses	MONO
+H	PrecursorMasses	MONO
+H	PrecursorMassTolerance	20.000000
+H	FragmentMassTolerance	0.020000
+H	EnzymeName	Trypsin
+H	Algo-IonSeries	 0 0 0 0.0 1.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0
+H	DiffMod	M*=+15.994900
+H	StaticMod	C=160.030649
+H
+H	CometParams	# comet_version = 2022.01 rev. 2
+H	CometParams	activation_method = ALL
+H	CometParams	add_A_alanine = 0.000000
+H	CometParams	add_B_user_amino_acid = 0.000000
+H	CometParams	add_C_cysteine = 57.021464
+H	CometParams	add_Cterm_peptide = 0.000000
+H	CometParams	add_Cterm_protein = 0.000000
+H	CometParams	add_D_aspartic_acid = 0.000000
+H	CometParams	add_E_glutamic_acid = 0.000000
+H	CometParams	add_F_phenylalanine = 0.000000
+H	CometParams	add_G_glycine = 0.000000
+H	CometParams	add_H_histidine = 0.000000
+H	CometParams	add_I_isoleucine = 0.000000
+H	CometParams	add_J_user_amino_acid = 0.000000
+H	CometParams	add_K_lysine = 0.000000
+H	CometParams	add_L_leucine = 0.000000
+H	CometParams	add_M_methionine = 0.000000
+H	CometParams	add_N_asparagine = 0.000000
+H	CometParams	add_Nterm_peptide = 0.000000
+H	CometParams	add_Nterm_protein = 0.000000
+H	CometParams	add_O_pyrrolysine = 0.000000
+H	CometParams	add_P_proline = 0.000000
+H	CometParams	add_Q_glutamine = 0.000000
+H	CometParams	add_R_arginine = 0.000000
+H	CometParams	add_S_serine = 0.000000
+H	CometParams	add_T_threonine = 0.000000
+H	CometParams	add_U_selenocysteine = 0.000000
+H	CometParams	add_V_valine = 0.000000
+H	CometParams	add_W_tryptophan = 0.000000
+H	CometParams	add_X_user_amino_acid = 0.000000
+H	CometParams	add_Y_tyrosine = 0.000000
+H	CometParams	add_Z_user_amino_acid = 0.000000
+H	CometParams	allowed_missed_cleavage = 2
+H	CometParams	clear_mz_range = 0.000000 0.000000
+H	CometParams	clip_nterm_methionine = 0
+H	CometParams	database_name = results/Firstexp/fasta/UP000005640.fasta
+H	CometParams	decoy_prefix = DECOY_
+H	CometParams	decoy_search = 2
+H	CometParams	digest_mass_range = 600.000000 5000.000000
+H	CometParams	equal_I_and_L = 1
+H	CometParams	fragment_bin_offset = 0.000000
+H	CometParams	fragment_bin_tol = 0.020000
+H	CometParams	isotope_error = 1
+H	CometParams	mass_offsets = 
+H	CometParams	mass_type_fragment = 1
+H	CometParams	mass_type_parent = 1
+H	CometParams	max_duplicate_proteins = 20
+H	CometParams	max_fragment_charge = 3
+H	CometParams	max_precursor_charge = 6
+H	CometParams	max_variable_mods_in_peptide = 5
+H	CometParams	minimum_intensity = 0.000000
+H	CometParams	minimum_peaks = 10
+H	CometParams	ms_level = 2
+H	CometParams	nucleotide_reading_frame = 0
+H	CometParams	num_enzyme_termini = 2
+H	CometParams	num_output_lines = 5
+H	CometParams	num_results = 100
+H	CometParams	num_threads = 5
+H	CometParams	output_mzidentmlfile = 1
+H	CometParams	output_pepxmlfile = 1
+H	CometParams	output_percolatorfile = 1
+H	CometParams	output_sqtfile = 1
+H	CometParams	output_suffix = 
+H	CometParams	output_txtfile = 1
+H	CometParams	override_charge = 0
+H	CometParams	peff_format = 0
+H	CometParams	peff_obo = 
+H	CometParams	peptide_length_range = 6 35
+H	CometParams	peptide_mass_tolerance = 20.000000
+H	CometParams	peptide_mass_units = 2
+H	CometParams	precursor_NL_ions = 
+H	CometParams	precursor_charge = 0 0
+H	CometParams	precursor_tolerance_type = 1
+H	CometParams	print_expect_score = 1
+H	CometParams	remove_precursor_peak = 0
+H	CometParams	remove_precursor_tolerance = 1.500000
+H	CometParams	require_variable_mod = 0
+H	CometParams	sample_enzyme_number = 1
+H	CometParams	scan_range = 0 0
+H	CometParams	search_enzyme2_number = 0
+H	CometParams	search_enzyme_number = 1
+H	CometParams	spectrum_batch_size = 15000
+H	CometParams	theoretical_fragment_ions = 1
+H	CometParams	use_A_ions = 0
+H	CometParams	use_B_ions = 1
+H	CometParams	use_C_ions = 0
+H	CometParams	use_NL_ions = 0
+H	CometParams	use_X_ions = 0
+H	CometParams	use_Y_ions = 1
+H	CometParams	use_Z1_ions = 0
+H	CometParams	use_Z_ions = 0
+H	CometParams	variable_mod01 =  15.9949 M 0 3 -1 0 0 0.0
+H	CometParams	variable_mod02 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod03 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod04 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod05 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod06 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod07 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod08 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams	variable_mod09 =  0.0 X 0 3 -1 0 0 0.0
+H	CometParams
+H	CometParams	[COMET_ENZYME_INFO]
+H	CometParams	0.  Cut_everywhere         0      -           -
+H	CometParams	1.  Trypsin                1      KR          P
+H	CometParams	2.  Trypsin/P              1      KR          -
+H	CometParams	3.  Lys_C                  1      K           P
+H	CometParams	4.  Lys_N                  0      K           -
+H	CometParams	5.  Arg_C                  1      R           P
+H	CometParams	6.  Asp_N                  0      D           -
+H	CometParams	7.  CNBr                   1      M           -
+H	CometParams	8.  Glu_C                  1      DE          P
+H	CometParams	9.  PepsinA                1      FL          P
+H	CometParams	10. Chymotrypsin           1      FWYL        P
+H	CometParams	11. No_cut                 1      @           @
+H	CometParams	
+H
+S	2634	2634	2	52	01bc92dad35f	1045.568377	2.98E+05	0.0	1024
+M	1	1	1044.579634	0.0000	0.4983	3.48E+00	2	18	K.SKPAALNSTR.K	U
+L	DECOY_sp|P0DKV0|S31C1_HUMAN
+L	DECOY_sp|B4DYI2|S31C2_HUMAN
+M	2	9	1045.574883	0.4983	0.2500	4.97E+01	1	22	K.AAKGAGSAAVSR.R	U
+L	DECOY_sp|Q8N9V7|TOPZ1_HUMAN
+M	2	10	1044.568400	0.4983	0.2500	4.97E+01	1	18	K.AKGASEPKEK.G	U
+L	DECOY_sp|Q9H3H9|TCAL2_HUMAN
+M	2	2	1044.554664	0.4983	0.2500	4.97E+01	1	14	-.KYYLQAMK.V	U
+L	DECOY_sp|Q9UL62|TRPC5_HUMAN
+M	2	6	1044.579634	0.4983	0.2500	4.97E+01	1	18	R.SAKLGNVEAR.F	U
+L	DECOY_sp|P41002|CCNF_HUMAN
+S	2686	2686	3	52	01bc92dad35f	1516.709613	2.42E+05	0.0	446
+M	1	1	1515.697517	0.0000	0.2467	2.66E+01	1	44	R.PFSTEHDQYHVR.A	U
+L	DECOY_sp|O75912|DGKI_HUMAN
